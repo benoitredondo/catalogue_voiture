@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+../.DS_Store
+../contact-app 
+../klassmate 
+../la-maison-jungle
+../live-coding2
