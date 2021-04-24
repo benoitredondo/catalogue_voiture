@@ -1,13 +1,16 @@
 import React from 'react';
 import '../Cars.css'
 
-const Cars = () => {
+const Cars = ({brand, color}) => {
+
+    console.log(brand)
+    console.log(color)
 
     return(
 
         <div className = 'cars'>
-            <p>Marque: </p>
-            <p>Couleur: </p>
+            <p>Marque:{brand} </p>
+            <p>Couleur: {color} </p>
         </div>
     )
 

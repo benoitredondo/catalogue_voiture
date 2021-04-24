@@ -6,7 +6,12 @@ const MyCars = () => {
     return(
         <>
         <div>CATALOGUE DE VOITURES</div>
-        <Cars/>
+        <Cars color='red' brand='mercedes'/>
+        <Cars color='black' brand='peugeot'/>
+        <Cars color='blue' brand='Tesla'/>
+      
+        
+        
         </>
     )
 }
