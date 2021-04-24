@@ -1,11 +1,12 @@
 import React from 'react'
+import Cars from './Cars'
 
 const MyCars = () => {
 
     return(
         <>
         <div>CATALOGUE DE VOITURES</div>
-        <p>Choisissez votre voiture</p>
+        <Cars/>
         </>
     )
 }
